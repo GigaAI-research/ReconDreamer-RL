@@ -4,4 +4,4 @@
 </div>
 
  
-## [Project Page](https://ReconDreamer-RL.github.io) | [Paper](https://arxiv.org/abs/2506.20590)
+## [Project Page](https://ReconDreamer-RL.github.io) | [Paper](https://arxiv.org/abs/2508.08170)
