@@ -38,7 +38,7 @@ def get_splat(device: str, scene: int):
     if not os.path.exists(ckpt_name):
         raise FileNotFoundError(f"[get_splat] checkpoint not found: {ckpt_name}")
 
-    checkpoint = torch.load(ckpt_name, map_location=device)
+    checkpoint = torch.load(ckpt_name, map_location=device, weights_only=True)
 
     cfg_path = _trainer_config_path()
     if not os.path.exists(cfg_path):
